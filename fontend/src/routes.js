@@ -7,7 +7,7 @@ import Demoboolue from './components/Demoboolue.vue'
 import Home from './components/Home.vue'
 import New from './components/New.vue'
 import Jquery from './components/Jquery.vue'
-// import EventInJquery from './components/EventInJquery.vue'
+import EventInJquery from './components/EventInJquery.vue'
 // import Jquery2 from './components/js/jquery.listtopie.min.js'
 
 export const routes = [
@@ -20,6 +20,6 @@ export const routes = [
      {path:'/home.html', name: 'home', component:Home},
      {path:'/new.html', name: 'new', component:New},
      {path:'/jquery.html', name: 'jquery', component:Jquery},
-     // {path:'/EventInJquery.html', name: 'EventInJquery', component:EventInJquery},
+     {path:'/EventInJquery.html', name: 'EventInJquery', component:EventInJquery},
      // {path:'/Jquery2.html', name: 'Jquery2', component:Jquery2}
 ]

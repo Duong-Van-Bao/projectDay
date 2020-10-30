@@ -2,6 +2,7 @@
 <section id="tokensale-part" class="tokensale-part position-r ptb-100">
     <div class="container">
         <div class="row">
+
             <div class="col-lg-6 fadeInLeft">
                 <div class="tokensale-detail pb-md-30">
                     <div class="tokensale-detail-inner">
@@ -20,6 +21,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-lg-6 align-right center-md">
                 <div class="token-graph">
                     <div class='donut'>

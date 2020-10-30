@@ -1,4 +1,5 @@
 <template>
+<div class="container">
     <div>
         <ul class="menu">
             <li>Trang chủ</li>
@@ -14,6 +15,7 @@
             <i class="fas fa-angle-up"></i>
         </div>
     </div>
+</div>
 </template>
 
 <script>
@@ -45,13 +47,14 @@ import $ from 'jquery'
         $('.back-to-top').click(function(){
             $('html,body').animate({
                 scrollTop:0},
-                1400);
+                3000);
             })
     })
 </script>
 
 <style lang="less">
-  div{
+.container{
+      div{
       height: 60px;
       .menu{
          display: flex;
@@ -95,4 +98,5 @@ import $ from 'jquery'
        display: none;
      }
   }
+}
 </style>

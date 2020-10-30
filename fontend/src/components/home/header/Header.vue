@@ -54,5 +54,27 @@ export default {
     }
 </script>
 
-<style lang="css">
+<style lang="less">
+#app{
+    div{
+        .main{
+        position: relative;
+        overflow: hidden;
+        background: #4a28a9 !important;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+        padding: 45px 0;
+        transition: all 0.4s ease 0s;
+        -webkit-transition: all 0.4s ease 0s;
+            .header{
+                .container{
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+            }
+        }
+    }
+}
 </style>

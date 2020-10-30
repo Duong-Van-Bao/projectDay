@@ -62,11 +62,12 @@ import Footer from './home/footer/Footer'
 import Startpreloader from './home/Startpreloader/Startpreloader'
 
 export default {
+
     methods: {
         
     },
+
     components: {
-        
         "header-info":Header,
         "home-content":Content,
         'container-about':About,
@@ -80,6 +81,7 @@ export default {
         'start-preloader':Startpreloader
     }
 }
+
 $(document).ready(function(){
     $(window).scroll(function () { 
         var pos_body = $('html,body').scrollTop();
@@ -91,6 +93,7 @@ $(document).ready(function(){
         }
     });
 })
+
 $(window).on("load", function() {
   "use strict";
     /* -------- preloader ------- */
@@ -98,6 +101,7 @@ $(window).on("load", function() {
     /*------End----------*/
     $(".token-graph").addClass("token-graph-right");
 });
+
 </script>
 
 <style lang="css">
