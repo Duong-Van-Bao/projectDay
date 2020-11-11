@@ -2,7 +2,6 @@
 <section id="tokensale-part" class="tokensale-part position-r ptb-100">
     <div class="container">
         <div class="row">
-
             <div class="col-lg-6 fadeInLeft">
                 <div class="tokensale-detail pb-md-30">
                     <div class="tokensale-detail-inner">
@@ -21,18 +20,15 @@
                     </div>
                 </div>
             </div>
-
             <div class="col-lg-6 align-right center-md">
                 <div class="token-graph">
-                    <div class='donut'>
-                        <div data-lcolor="#f8c04e">12.2</div>
-                        <div data-lcolor="#ac56f7">32.6</div>
-                        <div data-lcolor="#61f89f">38.2</div>
-                        <div data-lcolor="#5ad6f8">55.2</div>
-                        <div data-lcolor="#f85d77">73.2</div>
-                    </div>
                     <div class="graph-logo">
-                        <img src="../../../assets/graph-logo.png" alt="cryptoz">
+                        <template>
+                            <div class="donut-chart">
+                                <img src="../../../assets/graph-logo.png" width="170px" alt="cryptoz">
+                                <apexchart width="380" type="donut" :options="options" :series="series"></apexchart>
+                            </div>
+                        </template>
                     </div>
                 </div>
             </div>
@@ -44,14 +40,57 @@
 <script>
 
     export default {
-        
+    data() {
+        return {
+            options: {},
+            series: [12, 32, 38, 55, 73]      
+        }
+    },
+
     }
 
 </script>
 
-<style lang="css" >
+<style lang="less" >
 /* @import '../header/css/cryptoz.css';
 @import '../header/css/responsive.css';
 @import '../header/css/animate.css';
 @import '../header/css/bootstrap.min.css'; */
+div{
+    div{
+        .apexcharts-canvas{
+            svg{
+                foreignObject{
+                    .apexcharts-legend{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+.tokensale-part{
+    .container{
+        .row{
+            .col-lg-6{
+                .token-graph{
+                    .graph-logo{
+                        .donut-chart{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            div{
+                                .apexcharts-canvas{
+                                    position: absolute;
+                                    top:0px;
+                                    left: -103px;;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 </style>
