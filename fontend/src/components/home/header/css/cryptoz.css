@@ -1272,16 +1272,16 @@ _______________________________________________________*/
 	box-shadow: none;
 } */
 
-.contact-part .form-detail .form-control::placeholder, 
-.contact-part .form-detail .form-control::-moz-placeholder, 
+/* .contact-part .form-detail .form-control::placeholder, 
+.contact-part .form-detail .form-control::-moz-placeholder,  */
 /* .contact-part .form-detail .form-control:-ms-input-placeholder, 
 .contact-part .form-detail .form-control:-moz-placeholder,  */
-.contact-part .form-detail .form-control::-webkit-input-placeholder{
+/* .contact-part .form-detail .form-control::-webkit-input-placeholder{
 	color:#977ae9;
 	font-size: 14px;
-}
-.contact-part .form-detail .col-md{margin-bottom: 30px;}
-.contact-part .form-detail .form-group{margin-bottom: 30px;}
+} */
+/* .contact-part .form-detail .col-md{margin-bottom: 30px;}
+.contact-part .form-detail .form-group{margin-bottom: 30px;} */
 /* Contact css end */
 
 /* Blog page css start */
@@ -1556,49 +1556,49 @@ ul.child-comment {
 _______________________________________________________*/
 
 
-footer .social-media {
+/* footer .social-media {
 	text-align: right;
 	padding: 25px 0;
-}
+} */
 
-footer .social-media ul {
+/* footer .social-media ul {
 	display: inline-block;
-}
+} */
 
-.social-media ul li {
+/* .social-media ul li {
 	display: inline-block;
-}
+} */
 
-.social-media ul li a {
+/* .social-media ul li a {
 	color: #fff;
-}
-.social-media ul li a i.fa {
+} */
+/* .social-media ul li a i.fa {
     display: inline-block;
     text-align: center;
     margin: 0 10px;
     font-size: 18px;
-}
+} */
 
-.social-media ul li:first-child a i.fa {
+/* .social-media ul li:first-child a i.fa {
 	margin-left: 0;
-}
+} */
 
-.social-media ul li:last-child a i.fa {
+/* .social-media ul li:last-child a i.fa {
 	margin-right: 0;
-}
+} */
 
-.social-media ul li:hover a i.fa {
+/* .social-media ul li:hover a i.fa {
 	color: #fff;
-}
+} */
 
-.footer-bottom {
+/* .footer-bottom {
 	
-}
+} */
 
-.footer-bottom p {
+/* .footer-bottom p {
 	padding: 25px 0;
-}
+} */
 
-.footer-bottom p a {
+/* .footer-bottom p a {
 	color: #01e8fe;
-}
+} */

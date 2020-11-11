@@ -25,7 +25,7 @@ import FunctionJquery from './news/FunctionJquery.vue'
 $(document).ready(function(){
     $(window).scroll(function () { 
         var pos_body = $('html,body').scrollTop();
-        console.log(pos_body);
+        // console.log(pos_body);
         if(pos_body < 100){
             $('.scroll-to-top').addClass('tw-opacity-0 tw-pointer-events-none');
         }else {

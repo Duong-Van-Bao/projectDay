@@ -9,7 +9,6 @@
                 </div>
             </div>
         </div>
-        
         <div class="main-roadmap">
             <div class="row">
                 <div class="col-12">
@@ -19,7 +18,7 @@
             <div class="row n-margin">
                 <div class="w-100">
                     <div id="roadmap-slider" class="roadmap-slider">
-                        <div class="item n-padding main-box">
+                        <div class="item n-padding main-box road_map-item">
                             <div class="roadmap-box">
                                 <div class="date-title delay_4">
                                     Jan 2019
@@ -34,7 +33,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="item n-padding main-box">
+                        <div class="item n-padding main-box road_map-item">
                             <div class="roadmap-box">
                                 <div class="date-title delay_4">
                                     Fab 2019
@@ -49,7 +48,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="item n-padding main-box">
+                        <div class="item n-padding main-box road_map-item">
                             <div class="roadmap-box">
                                 <div class="date-title delay_4">
                                     Mar 2019
@@ -64,7 +63,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="item n-padding main-box">
+                        <div class="item n-padding main-box road_map-item">
                             <div class="roadmap-box">
                                 <div class="date-title delay_4">
                                     Apr 2019
@@ -79,7 +78,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="item n-padding main-box">
+                        <div class="item n-padding main-box road_map-item">
                             <div class="roadmap-box">
                                 <div class="date-title delay_4">
                                     May 2019
@@ -103,15 +102,80 @@
 </template>
 
 <script>
-// import $ from 'jquery'
     export default {
         
     }
 </script>
 
-<style lang="css">
-/* @import '../header/css/cryptoz.css';
-@import '../header/css/responsive.css';
-@import '../header/css/animate.css';
-@import '../header/css/bootstrap.min.css'; */
+<style lang="less">
+.menu-section{
+    .container{
+        .main-roadmap{
+            .row{
+                .w-100{
+                    .roadmap-slider{
+                        position: relative;
+                        .item{
+                            width: 307.5px;
+                            display: inline-block;
+                        }
+                        .item:first-child{
+                            position: absolute;
+                            top: 0px;
+                            left: 0px;
+                        }
+                        .item:nth-child(2){
+                            position: absolute;
+                            top: -95px;
+                            left: 17%;
+                            .roadmap-box{
+                                .date-title{
+                                    bottom: 40px;
+                                }
+                                .w-100{
+                                        height: 116px;
+                                        .small-round{
+                                            top: 95px;
+                                        }
+                                        .v-row{
+                                            top: 25px;
+                                        }
+                                    }
+                            }
+                        }
+                        .item:nth-child(4){
+                            position: absolute;
+                            top: -95px;
+                            left: 56%;
+                            .roadmap-box{
+                                .date-title{
+                                    bottom: 40px;
+                                }
+                                .w-100{
+                                        height: 116px;
+                                        .small-round{
+                                            top: 95px;
+                                        }
+                                        .v-row{
+                                            top: 25px;
+                                        }
+                                    }
+                            }
+                        }
+                        .item:last-child{
+                            position: absolute;
+                            top: 0px;
+                            right: 0px;
+                        }
+                        // .item:nth-child(2n+0){
+                        //     position: absolute;
+                        //     top: -62px;
+                        //     left: 17%;
+                        // }
+                    }
+                }
+            }
+        }
+    }
+}
 </style>

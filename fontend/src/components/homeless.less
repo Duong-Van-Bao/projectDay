@@ -1,3 +1,8 @@
+@import url("./home/header/css/animate.css");
+@import url("./home/header/css/font-awesome.min.css");
+@import url("./home/header/css/bootstrap.min.css");
+@import url("./home/header/css/owl.carousel.css");
+@import url("./home/header/css/jquery.listtopie.css");
 @-webkit-keyframes sk-cubeGridScaleDelay {
     0%, 70%, 100% {
       -webkit-transform: scale3D(1, 1, 1);
@@ -129,6 +134,23 @@ div{
                                         font-weight: 400;
                                     }
                                 }
+                                p{
+                                    color: white;
+                                }
+                                .big-width{
+                                    padding: 18px 40px;
+                                    text-decoration: none;
+                                    color: #fff !important;
+                                    background: #412394;
+                                    border: none;
+                                    font-size: 14px;
+                                    line-height: 16px;
+                                    font-weight: 400;
+                                    cursor: pointer;
+                                    text-align: center;
+                                    vertical-align: middle;
+                                    border-radius: 5px;
+                                }
                             }                          
                        }
                  }
@@ -191,6 +213,20 @@ div{
                                         }                                           
                                     }
                                 }
+                                .heading-part{
+                                    text-align: start;
+                                    .main_title{
+                                        color: white;
+                                        font-size: 35px;
+                                        line-height: 40px;
+                                        margin-bottom: 10px;
+                                        letter-spacing: 0px;
+                                    }
+                                }
+                                p{
+                                    color: #ccc;
+                                    text-align: start;
+                                }
                             } 
                         }
                     }
@@ -202,6 +238,23 @@ div{
 /* About-part section end */
 
  /* Site Services Features Block css Star */
+ .menu-section{
+     .container{
+         .row{
+             .col-12{
+                 .heading-part{
+                     .main_title{
+                        font-size: 35px;
+                        line-height: 40px;
+                        margin-bottom: 10px;
+                        letter-spacing: 0px;
+                        color:white;
+                     }
+                 }
+             }
+         }
+     }
+ }
 .service-bg {
 	position: absolute;
 	left: -30px;
@@ -254,6 +307,12 @@ div{
                 overflow: hidden;
                 text-overflow: ellipsis;
                 white-space: nowrap;
+                color: white;
+                text-align: start;
+            }
+            .ser-subtitle{
+                color: white;
+                text-align: start;
             }
         }
         .services-icon  {
@@ -268,6 +327,7 @@ div{
     .backend{
         background: #3d1f94;
         padding: 30px;
+        color: white;
         position: absolute;
         top: 0;
         left: 0;
@@ -326,11 +386,23 @@ div{
 .tokensale-part {
     background: url(../assets/token-sale-bg.png) no-repeat scroll center 0 #3d1f94;
     .tokensale-detail{
+        .heading-part{
+            text-align: start;
+            .main_title{
+                color: white;
+                font-size: 35px;
+                line-height: 40px;
+                margin-bottom: 10px;
+                letter-spacing: 0px;
+            }
+        }
         ul{
             li {
                 font-size: 16px;
                 position: relative;
                 line-height: 39px;
+                text-align: start;
+                color:#bbb;
                 span {
                     height: 27px;
                     width: 27px;
@@ -359,6 +431,10 @@ div{
                 }
             } 
         }
+        p{
+            color: #bbbbbb;
+            text-align: start;
+        }
     }    
     .token-graph{
         max-width: 400px;
@@ -383,67 +459,79 @@ div{
 
 /* Roadmap-part start */
 .roadmap-part{
-        background: url(../assets/roadmap-bg.png) no-repeat scroll center 0 ;
-        .main-roadmap{
-            overflow: hidden;
-            .h-border{
-                width: 100%; 
-                height: 4px; 
-                background: #6c44db;
-                margin-top: 181px;            
-            }
-            .main-box{
-                .roadmap-box{
-                    text-align: center;
-                    position: relative;
-                    margin-top: -12px;
-                    .small-round {
-                        background: #6c44db;
-                        border: 3px solid #fff;
-                        -webkit-border-radius: 50%;
-                        -moz-border-radius: 50%;
-                        -o-border-radius: 50%;
-                        border-radius: 50%;
-                        height: 20px;
-                        width: 20px;
-                        position: relative;
-                        left: 50%;
-                        margin-left: -10px;
-                        z-index: 1;
-                    }
-                    .date-title{
-                        position: absolute;
-                        bottom: 100%;
-                        color: #01e8fe;
-                        width: 100%;
-                        font-size: 18px;
-                        padding: 12px 0;                   
-                    }
-                    .map-graphic {
-                        overflow: hidden;
-                        .v-row {
-                            background: #6c44db;
-                            height: 50px;
-                            width: 4px;
-                            position: relative;
-                            left: 50%;
-                            margin-left: -2px;
-                            overflow: hidden;
-                        }
-                    }
+    background: url(../assets/roadmap-bg.png) no-repeat scroll center 0 ;
+    .row{
+        .col-lg-12{
+            .heading-part{
+                .main_title{
+                    color:white;
+                    font-size: 35px;
+                    line-height: 40px;
+                    margin-bottom: 10px;
+                    letter-spacing: 0px;
                 }
-                .roadmap-detail-box{
-                    p {
-                        margin-bottom: 0px;
-                    }
-                    h3 {
-                        overflow: hidden;
-                        text-overflow: ellipsis;
-                        white-space: nowrap;
-                    }
-                } 
             }
         }
+    }  
+    .main-roadmap{
+        overflow: hidden;
+        .h-border{
+            width: 100%; 
+            height: 4px; 
+            background: #6c44db;
+            margin-top: 181px;            
+        }
+        .main-box{
+            .roadmap-box{
+                text-align: center;
+                position: relative;
+                margin-top: -12px;
+                .small-round {
+                    background: #6c44db;
+                    border: 3px solid #fff;
+                    -webkit-border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    -o-border-radius: 50%;
+                    border-radius: 50%;
+                    height: 20px;
+                    width: 20px;
+                    position: relative;
+                    left: 50%;
+                    margin-left: -10px;
+                }
+                .date-title{
+                    position: absolute;
+                    bottom: 100%;
+                    color: #01e8fe;
+                    width: 100%;
+                    font-size: 18px;
+                    padding: 12px 0;                   
+                }
+                .map-graphic {
+                    overflow: hidden;
+                    .v-row {
+                        background: #6c44db;
+                        height: 50px;
+                        width: 4px;
+                        position: relative;
+                        left: 50%;
+                        margin-left: -2px;
+                        overflow: hidden;
+                    }
+                }
+            }
+            .roadmap-detail-box{
+                p {
+                    margin-bottom: 0px;
+                }
+                h3 {
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+            } 
+        }
+    }
 }
 .roadmap-slider{
     .owl-item:nth-child(2n+0){
@@ -491,6 +579,21 @@ div{
 /* Our Team css strat */
 .team-part {
     background: url(../assets/team-bg.png) no-repeat scroll center center #3d1f94;
+    .container{
+        .row{
+            .col-lg-12{
+                .heading-part{
+                    .main_title{
+                        font-size: 35px;
+                        line-height: 40px;
+                        margin-bottom: 10px;
+                        letter-spacing: 0px;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
     .team-box {
         background: #4a28a9;
         padding: 45px 25px;
@@ -537,9 +640,15 @@ div{
                     margin-bottom: 25px;
                 }
             }
+            .member-designation{
+                margin-bottom: 25px;
+                display: inline-block;
+                color: white;
+            }
             .social-media{
                 ul{
                     li{
+                        display: inline-block;
                         a{
                             i.fa {
                                 color: #784cf2;
@@ -548,6 +657,7 @@ div{
                                 -webkit-transition: all 0.4s ease 0s;
                                 -o-transition: all 0.4s ease 0s;
                                 font-size: 20px;
+                                margin: 0 10px;
                             }
                             &:hover{
                                 i.fa {
@@ -556,6 +666,20 @@ div{
                             }
                         } 
                     } 
+                    li:first-child{
+                         a{
+                             i.fa{
+                                 margin-left: 0px;
+                             }
+                         }
+                    }
+                    li:last-child{
+                        a{
+                            i.fa{
+                                margin-right: 0px;
+                            }
+                        }
+                    }
                 } 
             }
         }
@@ -567,6 +691,17 @@ div{
     /* Tab CSS Start */
     .faq-part{
         .container{
+            .col-lg-12{
+                .heading-part{
+                    .main_title{
+                        font-size: 35px;
+                        line-height: 40px;
+                        margin-bottom: 10px;
+                        letter-spacing: 0px;
+                        color: white;
+                    }
+                }
+            }
             .row{
                .col-md-10{
                     #tabs {
@@ -698,7 +833,22 @@ div{
 
 /* Contact css start */
 .contact-part {
-	background: url(../assets/contact-bg.png) no-repeat scroll 0 0 #3d1f94;
+    background: url(../assets/contact-bg.png) no-repeat scroll 0 0 #3d1f94;
+    .container{
+        .row{
+            .col-lg-12{
+                .heading-part{
+                    .main_title{
+                        font-size: 35px;
+                        line-height: 40px;
+                        margin-bottom: 10px;
+                        letter-spacing: 0px;
+                        color:white
+                    }
+                }
+            }
+        }
+    }
     .row{
           .col-md-4{
                 .contact-box {
@@ -735,7 +885,19 @@ div{
           }
           .col-md-8{
             .form-detail{
+                .row{
+                    .col-md{
+                        margin-bottom: 30px;
+                        .form-control{
+                            background: #4a28a9;
+                            border: none;
+                            height: 50px;color: #fff;
+                            padding-left: 15px;                            
+                        }
+                    }
+                }
                 .form-group{
+                    margin-bottom: 30px;
                     .form-control{
                         background: #4a28a9;
                         border: none;
@@ -747,9 +909,87 @@ div{
                             -o-box-shadow: none;
                             box-shadow: none;
                         }
+                        &::placeholder{
+                            color:#977ae9;
+                            font-size: 14px;
+                        }
                     }
+                }
+                .btn-white{
+                    color: #3d1f94;
+                    background: rgba(255,255,255,1);
+                    border: none;
+                    cursor: pointer;
+                    padding: 18px 26px;
+                    font-size: 14px;
+                    line-height: 16px;
+                    font-weight: 400;
+                    border-radius: 5px;
+                    float: left;
                 }
             }
           }
     }
 }
+/* Contact css end */
+
+/*_______________________________________________________
+// FOOTER  //----------------------------
+_______________________________________________________*/
+.footer-bottom{
+   .row{
+       .col-md-4{
+            .social-media {
+                text-align: right;
+                padding: 25px 0;
+                ul {
+                    display: inline-block;
+                    li {
+                        display: inline-block;
+                        a {
+                            color: #fff;
+                            i.fa {
+                                display: inline-block;
+                                text-align: center;
+                                margin: 0 10px;
+                                font-size: 18px;
+                            }
+                        }
+                    }
+                    li:first-child{
+                        a{
+                            i.fa {
+                                margin-left: 0;
+                            }
+                        } 
+                    }
+                    li:last-child{
+                        a{
+                            i.fa {
+                                margin-right: 0;
+                            }                       
+                        }
+                        &:hover{
+                            a{
+                                i.fa {
+                                    color: #fff;
+                                }
+                            } 
+                        }
+                    } 
+                }
+            }
+       }
+       .col-md-8{
+           p{
+            padding: 25px 0;
+            color:white;
+            text-align: start;
+            a {
+                color: #01e8fe;
+            }
+           }
+       }
+   }
+}
+// footer end
