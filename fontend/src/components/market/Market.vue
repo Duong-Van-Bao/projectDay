@@ -37,6 +37,7 @@
 <script>
 import ArenaMarket from './ArenaMarket.vue'
 import TopMon from './TopMon.vue'
+
 export default {
    components: {
       "arena-market":ArenaMarket,

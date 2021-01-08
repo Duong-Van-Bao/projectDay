@@ -8,7 +8,7 @@
 <script>
 export default {
         computed: {
-         Result() {
+         Result() {  
             return this.$store.state.result * 10
          },
          Resultone() {

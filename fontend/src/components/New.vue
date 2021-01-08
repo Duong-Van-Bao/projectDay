@@ -13,14 +13,14 @@ import NewsInfo from './news/NewsInfo.vue'
 import Container from './news/Container.vue'
 import Footer from './news/container/Footer.vue'
 import FunctionJquery from './news/FunctionJquery.vue'
-    export default {
-        components: {
-           'new-menuinfo-one':NewsInfo,
-           'new-container':Container,
-            'new-footer':Footer,
-            'function-jquery':FunctionJquery
-        }
+export default {
+    components: {
+        'new-menuinfo-one':NewsInfo,
+        'new-container':Container,
+        'new-footer':Footer,
+        'function-jquery':FunctionJquery
     }
+}
 
 $(document).ready(function(){
     $(window).scroll(function () { 

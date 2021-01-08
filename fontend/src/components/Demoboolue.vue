@@ -123,7 +123,7 @@ import Centralstate from './CentralState'
             upNumber() {
                 this.count += 1
             },
-            len () {
+            len () {     
                 this.$store.state.result++,
                 this.$store.state.commit('incrementOp', 30)     
             },

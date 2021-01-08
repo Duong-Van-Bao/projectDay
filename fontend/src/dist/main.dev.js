@@ -6,6 +6,10 @@ var _vueRouter = _interopRequireDefault(require("vue-router"));
 
 var _App = _interopRequireDefault(require("./App.vue"));
 
+var _bootstrapVue = require("bootstrap-vue");
+
+var _particles = _interopRequireDefault(require("particles.vue"));
+
 var _routes = require("./routes");
 
 var _store = require("./store/store");
@@ -14,9 +18,15 @@ var _vueApexcharts = _interopRequireDefault(require("vue-apexcharts"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
+_vue["default"].use(_particles["default"]);
+
 _vue["default"].use(_vueRouter["default"]);
 
 _vue["default"].use(_vueApexcharts["default"]);
+
+_vue["default"].use(_bootstrapVue.BootstrapVue);
+
+_vue["default"].use(_bootstrapVue.IconsPlugin);
 
 _vue["default"].config.productionTip = false;
 
