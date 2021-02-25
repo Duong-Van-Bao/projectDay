@@ -14,6 +14,8 @@ import DemoDom from './components/DemoJavaScriptDomDroupDown.vue'
 // import EventInJquery from './components/EventInJquery.vue'
 // import Jquery2 from './components/js/jquery.listtopie.min.js'
 // import Apexchart from './components/Apexchart.vue'
+import layOut from './components/newsBirago/LayOut.vue'
+import LayoutDetails from'./components/newsBirago/LayoutDetails.vue'
 
 export const routes = [
      {path:'/', name: 'home', component:market},
@@ -26,7 +28,9 @@ export const routes = [
      {path:'/home.html', name: 'home', component:Home},
      {path:'/new.html', name: 'new', component:New},
      {path:'/demo', name: 'demo', component:DemoJquery},
-     {path:'/demodom', name: 'demodom', component:DemoDom}
+     {path:'/demodom', name: 'demodom', component:DemoDom},
+     {path:'/news', name: 'news', component:layOut},
+     {path:'/news/:slug.:id.html',name:'newsdetails',component:LayoutDetails}
      // {path:'/jquery.html', name: 'jquery', component:Jquery},
      // {path:'/EventInJquery.html', name: 'EventInJquery', component:EventInJquery},
      // {path:'/Jquery2.html', name: 'Jquery2', component:Jquery2}

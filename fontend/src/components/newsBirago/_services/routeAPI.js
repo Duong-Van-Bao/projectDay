@@ -1,0 +1,1 @@
+export const linkAPI = "https://603750775435040017722043.mockapi.io"

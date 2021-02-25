@@ -21,7 +21,6 @@
 <script>
 import $ from 'jquery'
 import 'animate.css';
-
   export default {
       data() {
           return {

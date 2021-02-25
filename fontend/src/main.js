@@ -16,6 +16,7 @@ Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
 
 Vue.config.productionTip = false
+require('./components/newsBirago/css/__fixMain.less');
 
 Vue.component('apexchart', VueApexCharts)
 const router = new VueRouter({
